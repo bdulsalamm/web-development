@@ -10,22 +10,32 @@
     <forum>
         <fieldset>
         <legend>Contact information:</legend>
-            
-            <label for="First name" >First name: </label>&nbsp; 
-            <input type="text" name="name" id="name" placeholder="First name"><br>
-            <label for="Last name" >Last name:         </label>&nbsp;
-            <input type="text" name="name" id="name" placeholder="last name"><br>
-            <label for="Email" >Email: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="text" name="name" id="name" placeholder="Email"><br>
-            <label for="Mobile" >Mobile: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="text" name="name" id="name" placeholder="Mobile"><br>
-            <p>Prefered contact method:</p> <input type="checkbox" id="contact1" name="contact1" value="Mobile">
-            <label for="contact"> Mobile</label><br>
-            <input type="checkbox" id="contact2" name="contact2" value="Email">
-            <label for="contact2"> Email</label><br>
+            <table>
+                <tr>
+                    <td><label for="First name">First name:</label></td>
+                    <td><input type="text" name="name" id="name" placeholder="First name"></td>
+                    <td>Prefered contact method:</td>
+                </tr>
+                <tr>
+                    <td><label for="Last name">Last name:</label></td>
+                    <td><input type="text" name="name" id="name" placeholder="last name"></td>
+                    <td><input type="checkbox" id="contact2" name="contact2" value="Email">Email</td>
+                </tr>
+                <tr>
+                    
+                    <td><label for="Email" >Email:</label></td>
+                    <td><input type="email" name="name" id="name" placeholder="Email"></td>
+                    <td><input type="checkbox" id="contact1" name="contact1" value="Mobile">Mobile</td>
+                </tr>
+                <tr>
+                    <td><label for="Mobile" >Mobile: </label></td>
+                    <td><input type="text" name="name" id="name" placeholder="Mobile"></td>
+                </tr>
+            </table>
         </fieldset>
         <fieldset>
             <legend>Feedback:</legend>
+            <br>
             <label for="Message"> Message</label> 
             <input type="text" name="message" placeholder="Message subject"><br><br>
             <textarea name="message" rows="10" cols="30"></textarea><br>
